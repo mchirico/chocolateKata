@@ -1,0 +1,24 @@
+dist: trusty
+sudo: false
+matrix:
+  include:
+  - language: python
+    python: 3.6
+    before_script:
+    - echo 'Nothing to add, yet'
+    script:
+    - export PYTHONPATH="${PWD}/src"
+    - pycodestyle --statistics -qq tests/*.py
+    - pycodestyle --statistics -qq src/*.py
+    - pycodestyle --statistics -qq src/utils/*.py    
+    - cd tests
+    - pytest --cov=../ -v *.py
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
+    - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
+before_install:
+- echo 'before'
+
+
+
+

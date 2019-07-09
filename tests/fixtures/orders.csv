@@ -1,0 +1,7 @@
+type,cash,price,bonus_ratio
+"white",15,2,3
+"milk",12,2,5
+"dark",13,4,1
+"white",6,2,2
+"bozo",3,2,1
+"white",1,2,3,4
