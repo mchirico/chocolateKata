@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mchirico/chocolateKata.svg?branch=master)](https://travis-ci.com/mchirico/chocolateKata)
+
 # Chocolate Kata
 
 # Bonus Rules:
