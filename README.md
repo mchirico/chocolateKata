@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/mchirico/chocolateKata.svg?branch=master)](https://travis-ci.com/mchirico/chocolateKata)
+[![Board Status](https://dev.azure.com/mchirico/61841fef-32bd-4221-900e-3067d5d7800a/f521119d-02aa-44e4-bf84-892e2da3e6a5/_apis/work/boardbadge/10e08a74-b444-4da0-950e-79233a23c099?columnOptions=1)](https://dev.azure.com/mchirico/61841fef-32bd-4221-900e-3067d5d7800a/_boards/board/t/f521119d-02aa-44e4-bf84-892e2da3e6a5/Microsoft.RequirementCategory/)
 
 # Chocolate Kata
 
