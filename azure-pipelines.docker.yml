@@ -26,5 +26,6 @@ jobs:
     displayName: 'Install dependencies'
   - script: |
       cd tests
+      export PYTHONPATH="${PWD}/src"
       pytest --cov=../ -v *.py
     displayName: 'Run tests'
